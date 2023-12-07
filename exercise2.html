@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>QUIZ</title>
+  </head>
+  <center>
+  <header style="background-color: bisque;color:black">
+    <h1>SURVEY QUESTIONS</h1>
+  </header></center> <center>
+    <body style="background-color:antiquewhite;background-size:1500px;font-size: 20px;">
+      <center> <img src="1.jfif" width="900px" height="200px">
+        <div style="width: 50%; background-color:aquamarine; height:20%;display:table;">
+      <p>
+        <label style="touch-action: auto; display:right">
+         It is raining outside?(yes or no) <input type="text" id="demo1"/>
+        <label>
+    <button onclick="myfunction()" value="submit">submit</button>
+    <marquee><p id="demo2"></p></marquee>
+      
+    </div><br>
+    <div style="width: 50%; background-color:aquamarine; height:20%;display:table">
+        <p>
+          <label style="touch-action: auto; display:right">
+           Did you finish your homework ?(yes or no) <input type="text" id="demo3"/>
+          <label>
+      <button onclick="myfunction1()" value="submit">submit</button>
+      <marquee><p id="demo4"></p></marquee>
+        
+      </div>
+<BR><BR>
+      <div style="width: 50%; background-color:aquamarine; height:20%;display:table">
+        <p>
+          <label style="touch-action: auto; display:right">
+           Are there any cookies left?(yes or no) <input type="text" id="demo5"/>
+          <label>
+      <button onclick="myfunction2()" value="submit">submit</button>
+      <marquee><p id="demo6"></p></marquee>
+        
+      </div>
+
+      <BR><BR>
+        <div style="width: 50%; background-color:aquamarine; height:20%;display:table">
+          <p>
+            <label style="touch-action: auto; display:right">
+             Did you brush your theeth?(yes or no) <input type="text" id="demo7"/>
+            <label>
+        <button onclick="myfunction3()" value="submit">submit</button>
+        <marquee><p id="demo8"></p></marquee>
+          
+        </div>
+
+        <BR><BR>
+          <div style="width: 50%; background-color:aquamarine; height:20%;display:table">
+            <p>
+              <label style="touch-action: auto; display:right">
+               Is your birthday today?(yes or no) <input type="text" id="demo9"/>
+              <label>
+          <button onclick="myfunction4()" value="submit">submit</button>
+          <marquee><p id="demo10"></p></marquee>
+            
+          </div>
+    <script>
+        function myfunction(){
+           var a=document.getElementById("demo1").value;
+           if(a=="yes"){
+            b="it is raining";
+           }
+           else{
+            b="sun shine";
+           }
+           document.getElementById("demo2").innerHTML=b;
+
+           
+        }
+
+        function myfunction1(){
+            var a=document.getElementById("demo3").value;
+            if(a=="yes"){
+             b="GREAT JOB";
+            }
+            else{
+             b="COMPLETE IT QUICK";
+            }
+            document.getElementById("demo4").innerHTML=b;
+        }
+
+        function myfunction2(){
+            var a=document.getElementById("demo5").value;
+            if(a=="yes"){
+             b="WOUULD YOU LIKE A COOKIES";
+            }
+            else{
+             b="TIME TO BAKE MORE COOKIES";
+            }
+            document.getElementById("demo6").innerHTML=b;
+        }
+
+        function myfunction3(){
+            var a=document.getElementById("demo7").value;
+            if(a=="yes"){
+             b="YOUR THEETH IS CLEAN";
+            }
+            else{
+             b="GO AND BRUSH";
+            }
+            document.getElementById("demo8").innerHTML=b;
+        }
+
+        function myfunction4(){
+            var a=document.getElementById("demo9").value;
+            if(a=="yes"){
+             b="HAPPY BIRTHDAY";
+            }
+            else{
+             b="NICE DAY";
+            }
+            document.getElementById("demo10").innerHTML=b;
+        }
+      
+      
+      
+    </script>
+  </body></center>
+</html>
+    
+</marquee>
